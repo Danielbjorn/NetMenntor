@@ -1,2 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+body, html {
+  height: 100%;
+}
+
+.background { 
+ 
+  background-image: url("/static/images/main.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -9px;
+  margin-top: -50px;
+}
+
+
+.nav {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+
+.menu a {
+  float: right;
+  text-decoration: none;
+  color: wheat;
+  margin-right: 25px;
+  font-family: 'Titan One', cursive;
+  transition: transform .2s;
+}
+
+.menu a:hover {
+  transform: scale(1.1);
+}
+
+
+
