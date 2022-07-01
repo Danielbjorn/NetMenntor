@@ -1,1 +1,32 @@
-SIGNUP PAGE
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="background">
+    <div class="container">
+        <div class="header">
+            <h1>Innskráning</h1>
+        </div>
+        <div class="main">
+            <form>
+                <span>
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Notendanafn">
+                </span><br>
+                <span>
+                    <i class="fa fa-lock"></i>
+                    <input type="text" placeholder="Lykilorð">
+                </span><br>
+                    <button>Skrá inn</button>
+            </form>
+        </div>
+    </div>
+</div>
+    
+
+
+
+
+
+{% endblock %}

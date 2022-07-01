@@ -1,25 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
 
 
 body, html {
   height: 100%;
 }
 
-.background { 
- 
+
+
+.background {
+
   background-image: url("/static/images/main.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -9px;
-  margin-top: -50px;
-}
+  margin-top: -80px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  overflow: auto;
+ 
 
+
+}
 
 .nav {
   list-style-type: none;
   overflow: hidden;
+  
+  margin: 0%;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  height: 80px;
+  text-align: center;
+  text-justify: center;
+  margin-right: 5%;
 }
 
 
@@ -28,14 +45,87 @@ body, html {
   float: right;
   text-decoration: none;
   color: wheat;
-  margin-right: 25px;
+  margin-right: 50px;
   font-family: 'Titan One', cursive;
   transition: transform .2s;
+  margin-top: 30px;
+  
 }
 
 .menu a:hover {
   transform: scale(1.1);
 }
 
+.container {
+
+  width: 380px;
+  height: 500px;
+  margin: 7% auto;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 0px 15px #333; 
+  
+
+}
+
+.header {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.header h1 {
+  color: rgb(201, 16, 118);
+  font-size: 25px;
+  margin-bottom: 80px;
+  font-family: 'Arima', cursive;
+}
+
+.main {
+  text-align: center;
+}
+
+.main input, button {
+
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 40px;
+
+}
+
+.main button {
+  
+  padding-left: 0;
+  background-color:rgb(201, 16, 118);
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.main button:hover, input:hover {
+
+  box-shadow: 2px 2px 5px #555;
+  
+
+}
+
+.main span {
+  position: relative;
+  
+}
+
+.main i {
+
+  position: absolute;
+  left: 15px;
+  color: #333;
+  font-size: 16px;
+  top: 2px;
+
+}
 
 
